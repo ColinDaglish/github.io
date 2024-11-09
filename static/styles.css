@@ -8,8 +8,10 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
+    color: #202549;
+    /* Dark blue/purple for text */
+    background-color: #FFFFFF;
+    /* White background */
 }
 
 h1,
@@ -23,7 +25,13 @@ h6 {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: #1785BB;
+    /* Blue for links */
+}
+
+a:hover {
+    color: #202549;
+    /* Dark blue/purple for hover effect */
 }
 
 ul {
@@ -32,8 +40,10 @@ ul {
 
 /* Header Styles */
 header {
-    background: #333;
-    color: #fff;
+    background: #202549;
+    /* Dark blue/purple background */
+    color: #FFFFFF;
+    /* White text */
     padding: 1rem;
     text-align: center;
 }
@@ -50,15 +60,23 @@ nav ul {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #FFFFFF;
+    /* White text for links in navigation */
     font-size: 1rem;
     text-transform: uppercase;
 }
 
+nav ul li a:hover {
+    color: #1785BB;
+    /* Hover effect for links */
+}
+
 /* Hero Section */
 .hero {
-    background-color: #007BFF;
-    color: #fff;
+    background-color: #1785BB;
+    /* Blue background */
+    color: #FFFFFF;
+    /* White text */
     padding: 2rem 1rem;
     text-align: center;
 }
@@ -74,22 +92,30 @@ nav ul li a {
 }
 
 .cta-button {
-    background-color: #ffcc00;
+    background-color: #FFFFFF;
+    /* White button */
     padding: 0.8rem 1.6rem;
     font-size: 1.1rem;
-    color: #333;
+    color: #1785BB;
+    /* Blue text */
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: bold;
+    border: 2px solid #1785BB;
+    /* Blue border */
 }
 
 .cta-button:hover {
-    background-color: #e6b800;
+    background-color: #1785BB;
+    /* Blue background on hover */
+    color: #FFFFFF;
+    /* White text on hover */
 }
 
 /* Services Section */
 .services {
-    background-color: #fff;
+    background-color: #F9F9F9;
+    /* Light background for contrast */
     padding: 3rem 1rem;
     text-align: center;
 }
@@ -106,7 +132,8 @@ nav ul li a {
 }
 
 .service-item {
-    background-color: #f9f9f9;
+    background-color: #FFFFFF;
+    /* White background for each service */
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -123,7 +150,8 @@ nav ul li a {
 
 /* Portfolio Section */
 .portfolio {
-    background-color: #f4f4f4;
+    background-color: #F4F4F4;
+    /* Light background */
     padding: 3rem 1rem;
     text-align: center;
 }
@@ -135,7 +163,8 @@ nav ul li a {
 }
 
 .portfolio-item {
-    background-color: #fff;
+    background-color: #FFFFFF;
+    /* White background for portfolio items */
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -149,8 +178,10 @@ nav ul li a {
 
 /* Footer Styles */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #202549;
+    /* Dark blue/purple background */
+    color: #FFFFFF;
+    /* White text */
     padding: 2rem 1rem;
     text-align: center;
 }
@@ -163,14 +194,26 @@ footer .footer-links ul {
 }
 
 footer .footer-links ul li a {
-    color: #fff;
+    color: #FFFFFF;
+    /* White text for footer links */
     text-transform: uppercase;
 }
 
+footer .footer-links ul li a:hover {
+    color: #1785BB;
+    /* Hover effect for footer links */
+}
+
 footer .footer-social a {
-    color: #fff;
+    color: #FFFFFF;
+    /* White social icon links */
     margin: 0 1rem;
     font-size: 1.2rem;
+}
+
+footer .footer-social a:hover {
+    color: #1785BB;
+    /* Hover effect for social icons */
 }
 
 /* Contact Form */
@@ -190,10 +233,12 @@ footer .footer-social a {
 }
 
 .contact form button {
-    background-color: #ffcc00;
+    background-color: #1785BB;
+    /* Blue button */
     padding: 1rem;
     font-size: 1rem;
-    color: #333;
+    color: #FFFFFF;
+    /* White text */
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -201,7 +246,8 @@ footer .footer-social a {
 }
 
 .contact form button:hover {
-    background-color: #e6b800;
+    background-color: #202549;
+    /* Dark blue/purple on hover */
 }
 
 /* Responsive Styles (Mobile First) */
